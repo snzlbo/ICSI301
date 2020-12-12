@@ -1,0 +1,38 @@
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: #eeeff2;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+}
+.box:nth-of-type(odd) {
+  background-color: #dfe1e7;
+}
+.box:not(:last-child) {
+  border-top-style: solid;
+  border-color: #687291;
+  border-width: 1px;
+}
+.box:last-child {
+  background-color: #687291;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+  justify-content: center;
+}
+.box .content p {
+  display: none;
+}

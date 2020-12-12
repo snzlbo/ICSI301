@@ -1,0 +1,70 @@
+body {
+  font-family: "Kufam", cursive;
+  padding: 10px;
+  margin: 480px auto;
+  font-size: 40px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-color: lightskyblue;
+  position: relative;
+  margin: auto;
+  margin-left: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #8cbadf;
+}
+.box span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background: #eeeff2;
+  transition: 0.5s;
+  font-size: 40px;
+  color: #000;
+  z-index: 1;
+  text-align: center;
+  line-height: 175px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.box:hover span {
+  text-align: center;
+  line-height: 80px;
+  vertical-align: middle;
+  top: 20px;
+  right: calc(50% - 20px);
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.box:hover .content {
+  top: 50px;
+}
+.content {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  top: 35px;
+  height: calc(100% - 75px);
+  font-size: 15px;
+  transition: 0.5s;
+}
+.box:nth-of-type(odd) {
+  background-color: lightblue;
+}

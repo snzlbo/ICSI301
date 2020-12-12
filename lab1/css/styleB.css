@@ -1,0 +1,39 @@
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  padding: 10px;
+  margin: 0;
+  font-size: 40px;
+}
+.container {
+  width: 100%;
+  height: calc(100vh - 20px);
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+  background-color: #eeeff2;
+  position: relative;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #d0d0ff;
+}
+.box:not(:last-child) {
+  margin-right: 10px;
+}
+.box:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.box:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: #a96de8;
+}
+.box .content p {
+  display: none;
+}
