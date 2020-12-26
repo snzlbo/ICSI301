@@ -12,10 +12,10 @@ Study inInformation technology.
 - Laboratory 1: HTML and CSS ✔️ (*POINTS ASSIGNET INTO SISI*)
 - Laboratory 2: JavaScript Calisthenics ✔️ (*POINTS ASSIGNET INTO SISI*)
 - Laboratory 3: JavaScript and the DOM ✔️ (*POINTS ASSIGNET INTO SISI*)
-- Laboratory 4: Page Generation with ReactJS
-- Laboratory 5: Single Page Applications
+- Laboratory 4: Page Generation with ReactJS ✔️ 
+- Laboratory 5: Single Page Applications ✔️ 
 - Laboratory 6: Appserver and Database
-- Laboratory 7: Sessions and Input
-- Laboratory 8: Photo App Sprint
+- MERN STACK TUTORIAL ✔️ 
+- TO-DO list ✔️
 
 ENJOY 🔥
