@@ -14,7 +14,7 @@ Study inInformation technology.
 - Laboratory 3: JavaScript and the DOM ✔️ (*POINTS ASSIGNET INTO SISI*)
 - Laboratory 4: Page Generation with ReactJS ✔️ 
 - Laboratory 5: Single Page Applications ✔️ 
-- Laboratory 6: Appserver and Database
+- Laboratory 6: Appserver and Database ✔️
 - MERN STACK TUTORIAL ✔️ 
 - TO-DO list ✔️
 
